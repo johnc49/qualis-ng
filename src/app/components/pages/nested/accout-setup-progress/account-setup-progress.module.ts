@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { AccoutSetupProgressComponent } from './AccoutSetupProgressComponent';
+import { AccoutSetupProgressComponent } from './accout-setup-progress.component';
 
 @NgModule({
   declarations: [AccoutSetupProgressComponent],

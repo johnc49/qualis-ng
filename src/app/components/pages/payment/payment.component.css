@@ -1,0 +1,143 @@
+.outer-div {
+  height: 857.5px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 8px;
+  margin-top: 8px;
+}
+.inner-div-1 {
+  height: 100%;
+  width: 440px;
+  background-color: #fcfcfc;
+  padding: 40px 40px 40px 40px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+}
+.pat {
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+}
+h2 span {
+  color: #52d627;
+}
+h4 {
+  display: flex;
+  flex-direction: column;
+  font-size: 6px;
+  font-weight: 400;
+}
+
+h4 span {
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.inner-div-2 {
+  width: 100%;
+}
+.inner-div-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.payment-div {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 8.5px 8.5px 8.5px rgba(0, 0, 0, 5%);
+  height: 127px;
+  max-width: 314px;
+}
+.zk-m {
+  display: flex;
+  flex-direction: row;
+}
+.zk {
+  margin-left: 20px;
+  font-weight: 800;
+  font-size: 4px;
+  border-radius: 50px;
+  padding-left: 3px;
+  height: 12px;
+  width: 20px;
+  background-color: #52d627;
+}
+.payment-div-1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 8.5px 8.5px 8.5px rgba(0, 0, 0, 5%);
+  height: 127px;
+  max-width: 314px;
+  margin-top: 20px;
+}
+.payment-div h4,
+.payment-div-1 h4 {
+  font-size: 9px;
+  font-weight: 800;
+}
+.payment-div h5,
+.payment-div-1 h5 {
+  font-size: 43px;
+  font-weight: 800;
+}
+.payment-div h6,
+.payment-div-1 h6 {
+  font-size: 7px;
+  font-weight: 500;
+  color: #999999;
+}
+.pay-btn {
+  background-color: #52d627;
+  height: 48px;
+  max-width: 300px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 50px;
+  margin-top: 40px;
+  border: 0px;
+}
+.pay-btn:hover {
+  filter: brightness(0.9);
+}
+
+.inner-div-4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.inner-div-4-1,
+.inner-div-4-2,
+.inner-div-4-3 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.inner-div-4-1 span,
+.inner-div-4-2 span,
+.inner-div-4-3 span {
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+.inner-div-5 {
+  height: 100%;
+  max-width: 855px;
+  padding-top: 40px;
+}
+
+.router-link-active {
+  color: black;
+}
+.nav-link {
+  color: #aaaaaa;
+}
+.nav-link.active {
+  color: black;
+}

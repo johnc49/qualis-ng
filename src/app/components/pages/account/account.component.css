@@ -1,0 +1,60 @@
+.outer-div {
+  height: 857.5px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 8px;
+  margin-top: 8px;
+}
+.inner-div-1 {
+  height: 100%;
+  max-width: 440px;
+  background-color: #fcfcfc;
+  padding: 40px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+}
+.pat {
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+}
+h2 span {
+  color: #52d627;
+}
+h4 {
+  display: flex;
+  flex-direction: column;
+  font-size: 6px;
+  font-weight: 400;
+}
+
+h4 span {
+  font-size: 9px;
+  font-weight: 700;
+}
+.inner-div-1 p {
+  font-size: 21;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.inner-div-2 {
+  height: 100%;
+  max-width: 855px;
+  padding: 40px;
+}
+
+.router-link-active {
+  color: black;
+}
+.nav-link {
+  color: #aaaaaa;
+}
+.nav-link.active {
+  color: black;
+}

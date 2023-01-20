@@ -1,1 +1,66 @@
 <app-searchbar></app-searchbar> <app-navbar></app-navbar>
+<div class="outer-div">
+  <div class="inner-div-1">
+    <h2>Hello,<span>Kangua</span></h2>
+    <h4 class="">Account Number<span>q-00122345</span></h4>
+    <p>Upload your personal KYC to be eligible to apply for a loan.</p>
+  </div>
+  <div class="inner-div-2">
+    <div class="">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#home-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="home-tab-pane"
+            aria-selected="true"
+            [routerLink]="['/account/account-details']"
+            routerLinkActive="router-link-active"
+          >
+            Account Details |
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="profile-tab-pane"
+            aria-selected="false"
+            [routerLink]="['/account/account-setup']"
+            routerLinkActive="router-link-active"
+          >
+            Account Setup Progress
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="home-tab-pane"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+          tabindex="0"
+        >
+          <router-outlet></router-outlet>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="profile-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

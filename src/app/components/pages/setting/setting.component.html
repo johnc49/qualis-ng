@@ -1,1 +1,115 @@
 <app-searchbar></app-searchbar> <app-navbar></app-navbar>
+<div>
+  <div class="outer-div">
+    <div>
+      <h2>Hello,<span>Kangua</span></h2>
+      <h4>Account Number<span>q-00122345</span></h4>
+    </div>
+    <div class="inner-div">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#home-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="home-tab-pane"
+            aria-selected="true"
+            [routerLink]="['/setting/account-setting']"
+            routerLinkActive="router-link-active"
+          >
+            Account Settings
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="profile-tab-pane"
+            aria-selected="false"
+            [routerLink]="['/setting/payment-setting']"
+            routerLinkActive="router-link-active"
+          >
+            Payments Settings
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#contact-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="contact-tab-pane"
+            aria-selected="false"
+            [routerLink]="['/setting/credit-score']"
+            routerLinkActive="router-link-active"
+          >
+            Credit Score
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab1"
+            data-bs-toggle="tab"
+            data-bs-target="#contact-tab-pane1"
+            type="button"
+            role="tab"
+            aria-controls="contact-tab-pane1"
+            aria-selected="false"
+            [routerLink]="['/setting/crb']"
+            routerLinkActive="router-link-active"
+          >
+            CRB Inquiry Actions
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="home-tab-pane"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+          tabindex="0"
+        >
+          <router-outlet></router-outlet>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="profile-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+          <router-outlet></router-outlet>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="contact-tab-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+          tabindex="0"
+        >
+          <router-outlet></router-outlet>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="contact-tab-pane1"
+          role="tabpanel"
+          aria-labelledby="contact-tab1"
+          tabindex="0"
+        >
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.router-link-active {
+  color: black;
+}
+.outer {
+  height: 855px;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
