@@ -6,8 +6,8 @@
   max-width: 1300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 .links {

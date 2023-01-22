@@ -23,7 +23,11 @@
     "@ngrx/effects": "^15.1.0",
     "@ngrx/store": "^15.1.0",
     "@popperjs/core": "^2.11.6",
+    "angular-svg-round-progressbar": "^10.0.0",
     "bootstrap": "^5.2.3",
+    "ng-circle-progress": "^1.6.0",
+    "ngx-progress-bar": "^0.0.10",
+    "ngx-stepper": "^1.1.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

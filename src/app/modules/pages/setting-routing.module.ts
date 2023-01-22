@@ -23,7 +23,10 @@ const routes: Routes = [
       },
       {
         path: 'payment-setting',
-        component: PaymentSettingComponent,
+        loadChildren: () =>
+          import(
+            'src/app/components/pages/nested/settings/payment-setting/payment-setting.module'
+          ).then((d) => d.PaymentSettingModule),
       },
       {
         path: 'credit-score',

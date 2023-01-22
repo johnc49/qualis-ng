@@ -1,0 +1,55 @@
+.outer-div {
+  margin-top: 40px;
+}
+.inner-div h1 {
+  font-size: 21px;
+}
+.inner-div h2 {
+  font-size: 15px;
+}
+
+.form-control {
+  height: 55px;
+  background-color: #f7f7f7;
+  font-size: 18px;
+}
+.form-select {
+  height: 55px;
+  background-color: #f7f7f7;
+  font-size: 18px;
+}
+
+.outer-div label {
+  font-size: 12px;
+}
+h3 {
+  font-size: 20px;
+}
+
+.pay-btn {
+  background-color: #52d627;
+  height: 45px;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 50px;
+  margin-top: 40px;
+  border: 0px;
+}
+.pay-btn:hover {
+  filter: brightness(0.9);
+}
+.pay-btn1 {
+  background-color: white;
+  height: 45px;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 50px;
+  margin-top: 40px;
+  border: 1px solid #aaaaaa;
+  margin-left: 20px;
+}
+.pay-btn1:hover {
+  filter: brightness(0.9);
+}

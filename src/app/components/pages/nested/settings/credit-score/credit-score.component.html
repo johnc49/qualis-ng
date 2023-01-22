@@ -1,1 +1,53 @@
-<p>credit-score works!</p>
+<form class="row outer-div">
+  <div class="col-12">
+    <h1>Check your credit score</h1>
+    <h2>Enter your details</h2>
+  </div>
+  <div class="col-6">
+    <div class="row g-3">
+      <div class="form-floating mb-3 col-12">
+        <input
+          type="text"
+          class="form-control"
+          id="floatingInput"
+          placeholder="Kangwa Mubanga"
+          value="Kangwa Mubanga"
+        />
+        <label for="floatingInput">Full Name</label>
+      </div>
+    </div>
+    <div class="row g-3">
+      <div class="form-floating mb-3 col-12">
+        <input
+          type="text"
+          class="form-control"
+          id="floatingInput1"
+          placeholder="101010/10/1"
+          value="101010/10/1"
+        />
+        <label for="floatingInput1">Registration Number (ID)</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 mb-3">
+        <button class="pay-btn">Save Bank Account</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 progress-div">
+    <round-progress
+      [current]="current"
+      [max]="max"
+      [color]="' #52d627'"
+      [background]="'#e9ecef'"
+      [radius]="150"
+      [stroke]="10"
+      class="zap"
+    >
+    </round-progress>
+    <h4>
+      {{ current }}/{{ max }}
+      <h6>score</h6>
+    </h4>
+  </div>
+</form>

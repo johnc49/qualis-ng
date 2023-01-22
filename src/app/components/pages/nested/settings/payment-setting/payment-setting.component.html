@@ -1,1 +1,56 @@
-<p>payment-setting works!</p>
+<form class="row g-3 outer-div">
+  <div class="col-8 inner-div">
+    <h1>Bank Details</h1>
+    <h2>Link Account</h2>
+  </div>
+  <div class="form-floating mb-3 col-8">
+    <select class="form-select" id="floatingSelectGrid">
+      <option selected>First National Bank</option>
+      <option value="1">Standard Charted</option>
+      <option value="2">Zananco</option>
+      <option value="3">Investust</option>
+      <option value="4">Absa</option>
+      <option value="5">Stambic Bank</option>
+      <option value="6">Access Bank</option>
+      <option value="7">UBA</option>
+    </select>
+    <label for="floatingSelectGrid">Select Bank</label>
+  </div>
+  <div class="form-floating mb-3 col-8">
+    <select class="form-select" id="floatingSelectGrid1">
+      <option selected>Lusaka</option>
+      <option value="1">Kitwe</option>
+      <option value="2">Ndola</option>
+      <option value="3">Kabwe</option>
+      <option value="4">Chingola</option>
+    </select>
+    <label for="floatingSelectGrid1">Select Branch</label>
+  </div>
+  <div class="form-floating mb-3 col-8">
+    <input
+      type="text"
+      class="form-control"
+      id="floatingInput"
+      placeholder="Kangwa Mubanga"
+      value="Kangwa Mubanga"
+    />
+    <label for="floatingInput">Enter account Name</label>
+  </div>
+  <div class="form-floating mb-3 col-8">
+    <input
+      type="text"
+      class="form-control"
+      id="floatingInput1"
+      placeholder="6200000000"
+      value="6200000000"
+    />
+    <label for="floatingInput1">Enter account Number</label>
+  </div>
+  <div class="col-8">
+    <h3>Make Primary Account</h3>
+  </div>
+  <div class="col-8">
+    <button class="pay-btn">Save Bank Account</button>
+    <button class="pay-btn1">Add New Bank Account</button>
+  </div>
+</form>

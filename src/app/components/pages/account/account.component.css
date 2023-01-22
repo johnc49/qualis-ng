@@ -54,6 +54,7 @@ h4 span {
 }
 .nav-link {
   color: #aaaaaa;
+  font-size: 21px;
 }
 .nav-link.active {
   color: black;

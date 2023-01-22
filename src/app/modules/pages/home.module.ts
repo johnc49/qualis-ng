@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from 'src/app/components/pages/home/home.component';
 import { NavbarModule } from '../shared/navbar.module';
@@ -9,6 +10,12 @@ import { HomeRoutingModule } from './home-routing.module';
 @NgModule({
   declarations: [HomeComponent],
   exports: [],
-  imports: [CommonModule, NavbarModule, SearchbarModule, HomeRoutingModule],
+  imports: [
+    CommonModule,
+    NavbarModule,
+    SearchbarModule,
+    HomeRoutingModule,
+    FormsModule,
+  ],
 })
 export class HomeModule {}

@@ -40,11 +40,13 @@ h4 span {
 }
 
 .router-link-active {
-  color: black;
+  color: #52d627;
 }
 .nav-link {
   color: #aaaaaa;
+  background-color: #e5e5e5;
+  font-size: 21px;
 }
 .nav-link.active {
-  color: black;
+  color: #52d627;
 }

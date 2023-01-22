@@ -56,6 +56,8 @@
             aria-selected="true"
             [routerLink]="['/payment/payments']"
             routerLinkActive="router-link-active"
+            (click)="setSelectedTab('tab1')"
+            [ngClass]="{ active: selectedTab === 'tab1' }"
           >
             Payments |
           </button>
@@ -72,6 +74,8 @@
             aria-selected="false"
             [routerLink]="['/payment/loan-repayment']"
             routerLinkActive="router-link-active"
+            (click)="setSelectedTab('tab2')"
+            [ngClass]="{ active: selectedTab === 'tab2' }"
           >
             Loan Repayment Timeline
           </button>
@@ -84,17 +88,19 @@
           role="tabpanel"
           aria-labelledby="home-tab"
           tabindex="0"
+          *ngIf="selectedTab === 'tab1'"
         >
-          <router-outlet></router-outlet>
+          <app-payments></app-payments>
         </div>
         <div
           class="tab-pane fade"
           id="profile-tab-pane"
-          role="tabpanel"
+          role="tabpane"
           aria-labelledby="profile-tab"
           tabindex="0"
+          *ngIf="selectedTab === 'tab2'"
         >
-          <router-outlet></router-outlet>
+          <app-loan-repayments></app-loan-repayments>
         </div>
       </div>
     </div>
