@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './accout-setup-progress.component.html',
   styleUrls: ['./accout-setup-progress.component.css'],
 })
-export class AccoutSetupProgressComponent {}
+export class AccoutSetupProgressComponent {
+  name = 'John';
+}

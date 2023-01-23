@@ -1,1 +1,133 @@
-<p>accout-setup-progress works!</p>
+<div class="row g-3 outer-div">
+  <div class="col-2 inner-div1">
+    <div class="container1">
+      <div class="progress-bar">
+        <div class="step">
+          <div class="step-container">
+            <div class="bullet">
+              <span><i class="mdi mdi-account-outline"></i></span>
+            </div>
+            <div class="check fas fa-check"></div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-container">
+            <div class="bullet">
+              <span><i class="mdi mdi-email-outline"></i></span>
+            </div>
+            <div class="check fas fa-check"></div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-container">
+            <div class="bullet">
+              <span><i class="mdi mdi-cellphone"></i></span>
+            </div>
+            <div class="check fas fa-check"></div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-container">
+            <div class="bullet">
+              <span><i class="mdi mdi-briefcase-variant-outline"></i></span>
+            </div>
+            <div class="check fas fa-check"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-10 inner-div2">
+    <div class="row small-div">
+      <div class="col-12 inner-small">
+        <p>KYC Completion</p>
+        <ng-template #tipContent1>
+          <div class="zap">
+            <p>
+              You will need an identity document, payslip or recent 3 months
+              bank statements and your proof of address.
+            </p>
+          </div></ng-template
+        >
+
+        <img
+          triggers="click"
+          [autoClose]="true"
+          [ngbTooltip]="tipContent1"
+          #tooltip1="ngbTooltip"
+          placement="start"
+          height="18px"
+          width="18px"
+          src="assets/images/Group-152.svg"
+        />
+      </div>
+    </div>
+    <div class="row small-div">
+      <div class="col-12 inner-small">
+        <p>Email Verification</p>
+        <ng-template #tipContent2>
+          <div class="zap">
+            <p>
+              Verify your email so we know it’s you.
+              <a href="">Didn’t receive a verification email?</a>
+              You can also check your spam folder.
+            </p>
+          </div></ng-template
+        >
+        <img
+          triggers="click"
+          [autoClose]="true"
+          [ngbTooltip]="tipContent2"
+          #tooltip2="ngbTooltip"
+          placement="start"
+          height="18px"
+          width="18px"
+          src="assets/images/Group-152.svg"
+        />
+      </div>
+    </div>
+    <div class="row small-div">
+      <div class="col-12 inner-small">
+        <p>Mobile Number</p>
+        <ng-template #tipContent3>
+          <div class="zap">
+            <p>
+              Verify your mobile number on this account.
+              <a href=""> Didn’t receive a One-Time-Pin (OTP?)</a>
+            </p>
+          </div></ng-template
+        >
+        <img
+          triggers="click"
+          [autoClose]="true"
+          [ngbTooltip]="tipContent3"
+          #tooltip3="ngbTooltip"
+          placement="start"
+          height="18px"
+          width="18px"
+          src="assets/images/Group-152.svg"
+        />
+      </div>
+    </div>
+    <div class="row small-div">
+      <div class="col-12 inner-small">
+        <p>Loan Application</p>
+        <ng-template #tipContent4>
+          <div class="zap">
+            <p>Apply for your first loan here.</p>
+          </div></ng-template
+        >
+        <img
+          triggers="click"
+          [autoClose]="true"
+          [ngbTooltip]="tipContent4"
+          #tooltip4="ngbTooltip"
+          placement="start"
+          height="18px"
+          width="18px"
+          src="assets/images/Group-152.svg"
+        />
+      </div>
+    </div>
+  </div>
+</div>

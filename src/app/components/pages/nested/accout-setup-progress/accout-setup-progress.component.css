@@ -1,0 +1,162 @@
+.outer-div {
+  width: 700px;
+  height: 767px;
+  box-shadow: 25.5px 44.5px 31.9px rgba(31, 73, 61, 7%);
+  /* background-color: aqua; */
+}
+/* .inner-div1 {
+  background-color: red;
+} */
+
+/* veritcal progress bar */
+.container1 {
+  /* background-color: #3aafa9; */
+  padding-top: 2px;
+  width: 80px;
+  height: 700px;
+  display: flex;
+  padding-bottom: 1px;
+}
+
+.progress-bar {
+  /* margin-top: 0px; */
+
+  width: 100px;
+  height: 100%;
+  /* padding: 30px 20px 20px 5px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: #52d627; */
+}
+.step {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+}
+.step-container {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+/* .step p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #def2f1;
+  margin-bottom: 8px;
+  transition: 0.2s;
+} */
+.bullet {
+  position: relative;
+  height: 37px;
+  width: 37px;
+  background-color: #ededed;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 50%;
+  line-height: 25px;
+  transition: 0.2s;
+  color: #b7b7b7;
+  z-index: 10;
+}
+
+.step span {
+  font-weight: 500;
+  font-size: 22px;
+  /* line-height: 25px; */
+  /* color: #def2f1; */
+  top: 4px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.step .check {
+  display: none;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 15px;
+}
+
+.bullet:before,
+.bullet:after {
+  position: absolute;
+  content: "";
+  height: 140px;
+  width: 7px;
+  background: #ededed;
+  bottom: 35px;
+  right: 15px;
+  border-radius: 50px;
+}
+
+.bullet.active {
+  background-color: #52d627;
+  color: black;
+}
+/* just for illustration, this color change will happen when a user uploads the kyc */
+.step:first-child .bullet,
+.step:nth-child(2) .bullet:before,
+.step:nth-child(2) .bullet:after {
+  background-color: #52d627;
+  color: black;
+}
+
+.step:first-child .bullet:before,
+.step:first-child .bullet:after {
+  /* display: none; */
+  height: 40px;
+  background-color: #52d627;
+}
+.step:last-child {
+  padding-bottom: 10px;
+}
+
+.bullet.active:after {
+  background-color: #17252a;
+  transform: scaleY(0);
+  transform-origin: top;
+  animation: animate 0.3s linear forwards;
+}
+
+.bullet.active span {
+  color: black;
+}
+
+.check.active {
+  display: block;
+  color: #def2f1;
+}
+
+/* .inner-div2 {
+  background-color: green;
+} */
+
+.small-div {
+  height: 96px;
+  width: 500px;
+  box-shadow: 7.5px 13px 9px rgba(31, 73, 61, 7%);
+  margin-top: 80px;
+}
+.inner-small {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inner-small p {
+  font-size: 20px;
+}
+.zap p {
+  font-size: 11px;
+  font-weight: 500;
+}
+/* .zap {
+  background-color: aqua;
+  height: 80px;
+  width: 200px;
+} */
