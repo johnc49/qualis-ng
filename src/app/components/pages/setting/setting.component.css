@@ -1,7 +1,7 @@
 .outer-div {
   display: flex;
   flex-direction: column;
-  box-shadow: 30px 53px 38px rgba(31, 73, 61, 7%);
+
   padding-left: 24px;
   padding-top: 40px;
   margin-top: 8px;
@@ -10,14 +10,10 @@
 }
 h2 {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 600;
   color: black;
 }
-.pat {
-  font-size: 30px;
-  font-weight: 800;
-  color: black;
-}
+
 h2 span {
   color: #52d627;
 }
@@ -34,10 +30,15 @@ h4 span {
 }
 
 .inner-div {
-  width: 100%;
+  width: 1050px;
+  height: 700px;
   margin-top: 12px;
   margin-bottom: 20px;
+  box-shadow: 30px 53px 38px rgba(31, 73, 61, 7%);
 }
+/* .nav-item {
+  width: 900px;
+} */
 
 .router-link-active {
   color: #52d627;
@@ -45,7 +46,12 @@ h4 span {
 .nav-link {
   color: #aaaaaa;
   background-color: #e5e5e5;
-  font-size: 21px;
+  font-size: 19px;
+  font-weight: 400;
+  width: 262.5px;
+  height: 60px;
+  border: 0px;
+  border-radius: 0px;
 }
 .nav-link.active {
   color: #52d627;

@@ -1,27 +1,30 @@
 .outer-div {
-  max-width: 850px;
+  width: 750px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 767px;
+  /* background-color: aqua; */
 }
 .inner-div1 {
   /* background-color: aqua; */
   height: 350px;
-  width: 750px;
+  width: 700px;
   box-shadow: 18px 31.5px 22px rgba(31, 73, 61, 7%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 15px;
 }
 .inner-div2 {
   /* background-color: brown; */
   height: 350px;
-  width: 750px;
+  width: 700px;
   box-shadow: 18px 31.5px 22px rgba(31, 73, 61, 7%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 15px;
 }
 .upcoming-div1 {
   display: flex;
@@ -33,8 +36,10 @@
   height: 200px;
 }
 
-h2 {
-  font-size: 18px;
+.upcoming-div1 h2,
+.payment-div1 h2 {
+  font-size: 14px;
+  font-weight: 400;
 }
 .form-select {
   width: 75px;
@@ -198,6 +203,18 @@ h2 {
 }
 .step:first-child .bullet {
   background-color: #52d627;
+}
+.step .fap {
+  color: #686868;
+  position: absolute;
+  font-size: 12px;
+  top: 50px;
+  left: -20px;
+}
+.direct {
+  position: absolute;
+  top: 90px;
+  left: 70px;
 }
 
 .step:first-child .bullet:before,

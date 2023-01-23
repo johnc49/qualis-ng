@@ -15,14 +15,10 @@
 }
 h2 {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 600;
   color: black;
 }
-.pat {
-  font-size: 30px;
-  font-weight: 800;
-  color: black;
-}
+
 h2 span {
   color: #52d627;
 }
@@ -39,14 +35,16 @@ h4 span {
 }
 .inner-div-1 p {
   font-size: 21;
-  font-weight: 800;
+  font-weight: 500;
   margin-top: 40px;
 }
 
 .inner-div-2 {
   height: 100%;
-  max-width: 855px;
+  width: 1700px;
   padding: 40px;
+  margin-left: 50px;
+  /* background-color: aqua; */
 }
 
 .router-link-active {
@@ -54,8 +52,16 @@ h4 span {
 }
 .nav-link {
   color: #aaaaaa;
-  font-size: 21px;
+  font-size: 19px;
+  font-weight: 400;
+  /* width: 350.5px; */
+  height: 60px;
+  border: 0px;
+  border-radius: 0px;
 }
 .nav-link.active {
   color: black;
+}
+.nav-tabs {
+  border: 0px;
 }
