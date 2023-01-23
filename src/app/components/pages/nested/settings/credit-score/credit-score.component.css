@@ -19,6 +19,9 @@ h2 {
   background-color: #f7f7f7;
   font-size: 16px;
 }
+.form-control:focus {
+  box-shadow: none;
+}
 
 .outer-div label {
   font-size: 12px;

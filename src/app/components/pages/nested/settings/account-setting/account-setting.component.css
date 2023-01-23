@@ -9,10 +9,16 @@
   background-color: #f7f7f7;
   font-size: 16px;
 }
+.form-control:focus {
+  box-shadow: none;
+}
 .form-select {
   height: 53px;
   background-color: #f7f7f7;
   font-size: 16px;
+}
+.form-select:focus {
+  box-shadow: none;
 }
 
 .outer-div label {

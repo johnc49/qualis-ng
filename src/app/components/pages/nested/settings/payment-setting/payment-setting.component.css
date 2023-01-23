@@ -15,10 +15,16 @@
   background-color: #f7f7f7;
   font-size: 16px;
 }
+.form-control:focus {
+  box-shadow: none;
+}
 .form-select {
   height: 53px;
   background-color: #f7f7f7;
   font-size: 16px;
+}
+.form-select:focus {
+  box-shadow: none;
 }
 
 .outer-div label {
@@ -31,7 +37,7 @@ h3 {
 .pay-btn {
   background-color: #52d627;
   height: 45px;
-  width: 300px;
+  width: 270px;
   font-size: 14px;
   font-weight: 600;
   border-radius: 50px;
@@ -44,7 +50,7 @@ h3 {
 .pay-btn1 {
   background-color: white;
   height: 45px;
-  width: 300px;
+  width: 270px;
   font-size: 14px;
   font-weight: 500;
   border-radius: 50px;
