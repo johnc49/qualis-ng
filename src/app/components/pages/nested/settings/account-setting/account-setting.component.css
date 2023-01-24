@@ -4,6 +4,16 @@
   width: 1000px;
   margin-left: 35px;
 }
+label:after {
+  content: " *";
+  color: red;
+}
+.form-floating:nth-child(4) label:after,
+.form-floating:nth-child(5) label:after,
+.form-floating:nth-child(8) label:after {
+  display: none;
+}
+
 .form-control {
   height: 53px;
   background-color: #f7f7f7;
@@ -19,6 +29,13 @@
 }
 .form-select:focus {
   box-shadow: none;
+}
+.require {
+  width: 200px;
+  color: red;
+  height: fit-content;
+  font-size: 10px;
+  /* background-color: aqua; */
 }
 
 .outer-div label {

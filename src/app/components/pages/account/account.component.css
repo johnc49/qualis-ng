@@ -1,6 +1,6 @@
 .outer-div {
   height: 857.5px;
-  margin-top: 3px;
+  /* margin-left: 10px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
