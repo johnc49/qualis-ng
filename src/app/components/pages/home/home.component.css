@@ -15,11 +15,3 @@
   flex-direction: column;
   font-size: 30px;
 }
-/* .links:after {
-  content: " *";
-  color: red;
-} */
-.re.sa:after {
-  content: " *";
-  color: red;
-}

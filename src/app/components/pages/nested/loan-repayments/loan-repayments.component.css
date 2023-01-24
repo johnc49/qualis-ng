@@ -4,10 +4,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 767px;
-  /* background-color: aqua; */
 }
 .inner-div1 {
-  /* background-color: aqua; */
   height: 350px;
   width: 700px;
   box-shadow: 18px 31.5px 22px rgba(31, 73, 61, 7%);
@@ -17,7 +15,6 @@
   margin-left: 15px;
 }
 .inner-div2 {
-  /* background-color: brown; */
   height: 350px;
   width: 700px;
   box-shadow: 18px 31.5px 22px rgba(31, 73, 61, 7%);
@@ -32,7 +29,6 @@
   justify-content: space-between;
 }
 .upcoming-div2 {
-  /* background-color: aqua; */
   height: 200px;
 }
 
@@ -100,7 +96,6 @@
 
 /* progress bar */
 .container1 {
-  /* background-color: #3aafa9; */
   padding-top: 2px;
   width: 700px;
   height: 170px;
@@ -111,28 +106,20 @@
 }
 
 .progress-bar {
-  /* margin-top: 0px; */
-
   width: 100%;
   height: 200px;
-  /* padding: 30px 20px 20px 5px; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* background-color: #52d627; */
 }
 .step {
-  /* text-align: center; */
-  /* width: 100%; */
   width: 50px;
   height: 50px;
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   justify-content: space-between;
   position: relative;
-  /* background-color: aqua; */
 }
 .step-container {
   position: absolute;
@@ -143,13 +130,10 @@
   font-size: 12px;
   font-weight: 500;
   color: #686868;
-  /* margin-bottom: 80px; */
   transition: 0.2s;
   position: absolute;
   top: -40px;
   left: 15px;
-
-  /* margin-top: 50px; */
 }
 .bullet {
   position: relative;
@@ -168,20 +152,6 @@
 .step span {
   font-weight: 500;
   font-size: 22px;
-  /* line-height: 25px; */
-  /* color: #def2f1; */
-  /* top: 4px; */
-  /* position: absolute;
-  left: 50%;
-  transform: translateX(-50%); */
-}
-
-.step .check {
-  display: none;
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  font-size: 15px;
 }
 
 .bullet:before,
@@ -196,10 +166,6 @@
   border-radius: 50px;
 }
 
-.bullet.active {
-  background-color: #52d627;
-  color: black;
-}
 /* just for illustration, this color change will happen when a user uploads the kyc */
 
 .step:nth-child(2) .bullet:before,
@@ -226,28 +192,4 @@
 .step:first-child .bullet:before,
 .step:first-child .bullet:after {
   display: none;
-  /* height: 40px;
-    background-color: #52d627; */
-}
-/* .step:last-child {
-  padding-bottom: 10px;
-} */
-
-.bullet.active:after {
-  background-color: #17252a;
-  transform: scaleY(0);
-  transform-origin: top;
-  animation: animate 0.3s linear forwards;
-}
-
-.bullet.active span {
-  color: black;
-}
-
-.check.active {
-  display: block;
-  color: #def2f1;
-}
-.step p.active {
-  color: #17252a;
 }
