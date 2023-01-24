@@ -1,5 +1,5 @@
 .search-div {
-  margin-left: 4px;
+  /* margin-left: 4px; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;

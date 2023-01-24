@@ -1,13 +1,14 @@
 .outer-div {
-  width: 750px;
+  width: 650px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 767px;
+  margin-left: 40px;
 }
 .inner-div1 {
   height: 350px;
-  width: 700px;
+  width: 600px;
   box-shadow: 18px 31.5px 22px rgba(31, 73, 61, 7%);
   display: flex;
   flex-direction: column;
@@ -16,7 +17,7 @@
 }
 .inner-div2 {
   height: 350px;
-  width: 700px;
+  width: 600px;
   box-shadow: 18px 31.5px 22px rgba(31, 73, 61, 7%);
   display: flex;
   flex-direction: column;
@@ -97,7 +98,7 @@
 /* progress bar */
 .container1 {
   padding-top: 2px;
-  width: 700px;
+  width: 600px;
   height: 170px;
   display: flex;
   justify-content: center;
@@ -159,7 +160,7 @@
   position: absolute;
   content: "";
   height: 7px;
-  width: 105px;
+  width: 85px;
   background: #ededed;
   bottom: 15px;
   right: 36px;
